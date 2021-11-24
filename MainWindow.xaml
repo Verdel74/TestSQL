@@ -1,0 +1,77 @@
+﻿<Window x:Class="TestSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestSQL"
+        mc:Ignorable="d"
+        Title="ProjetEFCore" Height="450" Width="800" Loaded="Window_Loaded">
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+
+        <!-- *************************************   Menu       ********************************-->
+
+            <Border  Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" x:Name="BTN_Home" Foreground="White" Background="Black">
+                    <StackPanel Orientation="Vertical">
+                        <Image Width="80" Height="80" Source="image/home.png"></Image>
+                        <Label Content="Home" Foreground="White" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                   
+
+                </Button>
+                <Button Grid.Column="2" x:Name="BTN_Gestion" Foreground="White" Background="Black">
+                    <StackPanel Orientation="Vertical">
+                        <Image Width="80" Height="80" Source="image/gestion.png"></Image>
+                        <Label Content="Gestion" Foreground="White" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="3" x:Name="BTN_Configuration" Foreground="White" Background="Black">
+                    <StackPanel Orientation="Vertical">
+                        <Image Width="80" Height="80" Source="image/configuration.png"></Image>
+                        <Label Content="Configuration" Foreground="White" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="4" x:Name="BTN_Info" Foreground="White" Background="Black">
+                    <StackPanel Orientation="Vertical">
+                        <Image Width="80" Height="80" Source="image/info.png"></Image>
+                        <Label Content="Info" Foreground="White" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+
+        
+            
+        
+        <!-- *************************************   Menu       ********************************-->
+
+
+        <!-- *************************************   Footer       ********************************-->
+        <Grid Grid.Row="2" Name="footer">
+            <Label Name="Footer" Content="Jules Verdel" HorizontalAlignment="Right"  VerticalAlignment="Center" Foreground="White"></Label>
+        </Grid> 
+        
+        <!-- *************************************   End of footer     ********************************-->
+
+      
+
+
+
+    </Grid>
+
+</Window>

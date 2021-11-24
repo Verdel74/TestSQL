@@ -1,0 +1,30 @@
+    <!--<Grid Background="Black">-->
+       
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>-->
+
+        <!--<Border  Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </Border>-->
+        <!--<Image x:Name="ImageMenu" Grid.Row="0" Grid.Column="1"></Image>
+        <Label Name="Footer" Content="Jules Verdel" Grid.Row="2" HorizontalAlignment="Right" ></Label>-->
+>        <!--Permet de sélectionner en particulier un grid et une column-->
+
+        <!--<DataGrid Name="BDD" SelectedCellsChanged="BDD_SelectedCellsChanged" Margin="0,67,0,125" Grid.Row="1"/>
+        <TextBox x:Name="TB_Nom" HorizontalAlignment="Left" Margin="10,139,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Grid.Row="1"/>
+        <TextBox x:Name="TB_Desc" HorizontalAlignment="Left" Margin="10,162,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Grid.Row="1"/>
+        <TextBox x:Name="TB_Annee" HorizontalAlignment="Left" Margin="10,180,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" Grid.Row="1"/>-->
+
+    <!--</Grid>-->
